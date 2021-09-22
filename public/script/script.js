@@ -4,6 +4,7 @@ const cross = document.querySelector(".cross");
 const menuIcon = document.querySelector(".menu-icon");
 const menu = document.querySelector(".menu");
 
+
 let menuOpen = false;
 
 trailerLink.addEventListener("click", () => {
