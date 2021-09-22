@@ -1,6 +1,6 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
@@ -8,15 +8,13 @@ body {
   background-image: url("../style/assets/jpg/jokerBg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-header {
   margin: 50px 0px;
 }
 
@@ -81,12 +79,12 @@ header {
   /* justify-items: center; */
 }
 
-.hero-container .trailer a{
+.hero-container .trailer a {
   display: flex;
   align-items: center;
 }
 
-.hero-container .trailer a svg{
+.hero-container .trailer a svg {
   margin-right: 20px;
 }
 
@@ -96,33 +94,33 @@ header {
   stroke: tomato;
 }
 
-.hero-container .video{
-    position: absolute;
-    display: none;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.788);
-    height: 100vh;
-    width: 100vw;
-    justify-content: center;
+.hero-container .video {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.788);
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
 }
 
-.hero-container .video .preview{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.hero-container .video .preview {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.cross{
-    color: tomato;
-    align-self: flex-end;
-    padding: 1em;
-    /* margin: 1em; */
-    padding-right: 0;
-    margin-right: 0;
-    font-size: 1.5em;
-    cursor: pointer;
-    font-family: sans-serif;
+.cross {
+  color: tomato;
+  align-self: flex-end;
+  padding: 1em;
+  /* margin: 1em; */
+  padding-right: 0;
+  margin-right: 0;
+  font-size: 1.5em;
+  cursor: pointer;
+  font-family: sans-serif;
 }
 
 .hero-container .trailer svg {
@@ -168,7 +166,7 @@ header {
   font-weight: normal;
 }
 
-.menu{
+.menu {
   display: flex;
   flex-direction: column;
   height:100vh;
@@ -181,7 +179,7 @@ header {
   transition: all 1s;
 }
 
-.menu a{
+.menu a {
   font-size: 30px;
   padding: 20px;
   text-decoration: none;
@@ -190,10 +188,6 @@ header {
   font-weight: normal;
 }
 
-.menu a:hover{
+.menu a:hover {
   color: tomato;
-}
-
-body{
-  overflow: hidden;
 }
