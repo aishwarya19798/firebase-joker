@@ -75,8 +75,16 @@ header {
   align-items: center;
   margin-top: 20px;
   margin-left: 100px;
-  
+
   /* justify-items: center; */
+}
+
+.social-icons svg {
+  width: 25px;
+  height: auto;
+  stroke: whitesmoke;
+  margin: 3px;
+  transition: 0.2s all;
 }
 
 .hero-container .trailer svg {
@@ -86,8 +94,22 @@ header {
   height: auto;
 }
 
+.social-icons svg:hover {
+  transform: scale(1.2);
+  stroke: tomato;
+}
+
 .hero-container .trailer a svg {
   margin-right: 20px;
+}
+
+.menu a {
+  font-size: 30px;
+  padding: 20px;
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: sans-serif;
+  font-weight: normal;
 }
 
 .hero-container .trailer a {
@@ -99,6 +121,10 @@ header {
   font-weight: normal;
   letter-spacing: 0.1em;
   margin-left: 10px;
+}
+
+.menu a:hover {
+  color: tomato;
 }
 
 .hero-container .trailer:hover > a,
@@ -129,7 +155,7 @@ header {
   color: tomato;
   align-self: flex-end;
   padding: 1em;
-  
+
   /* margin: 1em; */
   padding-right: 0;
   margin-right: 0;
@@ -145,19 +171,6 @@ header {
   margin-top: 250px;
 }
 
-.social-icons svg {
-  width: 25px;
-  height: auto;
-  stroke: whitesmoke;
-  margin: 3px;
-  transition: 0.2s all;
-}
-
-.social-icons svg:hover {
-  transform: scale(1.2);
-  stroke: tomato;
-}
-
 .social-icons p {
   color: whitesmoke;
   font-family: sans-serif;
@@ -170,25 +183,12 @@ header {
 .menu {
   display: flex;
   flex-direction: column;
-  height:100vh;
+  height: 100vh;
   position: absolute;
-  top:0px;
-  right:0px;
+  top: 0;
+  right: 0;
   background-color: rgba(0, 0, 0, 0.753);
-  padding:150px;
+  padding: 150px;
   transform: translateX(500px);
   transition: all 1s;
-}
-
-.menu a {
-  font-size: 30px;
-  padding: 20px;
-  text-decoration: none;
-  color: whitesmoke;
-  font-family: sans-serif;
-  font-weight: normal;
-}
-
-.menu a:hover {
-  color: tomato;
 }
