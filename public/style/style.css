@@ -34,7 +34,6 @@ header {
   cursor: pointer;
 }
 
-
 .menu-icon .upper-div {
   background-color: whitesmoke;
   height: 2px;
@@ -79,13 +78,13 @@ header {
   /* justify-items: center; */
 }
 
+.hero-container .trailer a svg {
+  margin-right: 20px;
+}
+
 .hero-container .trailer a {
   display: flex;
   align-items: center;
-}
-
-.hero-container .trailer a svg {
-  margin-right: 20px;
 }
 
 .hero-container .trailer:hover > a,
@@ -97,8 +96,8 @@ header {
 .hero-container .video {
   position: absolute;
   display: none;
-  top: 0;
-  left: 0;
+  top: 0px;
+  left: 0px;
   background: rgba(0, 0, 0, 0.788);
   height: 100vh;
   width: 100vw;
@@ -111,13 +110,14 @@ header {
   justify-content: center;
   align-items: center;
 }
+
 .cross {
   color: tomato;
   align-self: flex-end;
   padding: 1em;
   /* margin: 1em; */
-  padding-right: 0;
-  margin-right: 0;
+  padding-right: 0px;
+  margin-right: 0px;
   font-size: 1.5em;
   cursor: pointer;
   font-family: sans-serif;
@@ -145,6 +145,7 @@ header {
   margin-left: 100px;
   margin-top: 250px;
 }
+
 .social-icons svg {
   width: 25px;
   height: auto;
@@ -157,6 +158,7 @@ header {
   transform: scale(1.2);
   stroke: tomato;
 }
+
 .social-icons p {
   color: whitesmoke;
   font-family: sans-serif;
@@ -171,8 +173,8 @@ header {
   flex-direction: column;
   height:100vh;
   position: absolute;
-  top:0;
-  right:0;
+  top:0px;
+  right:0px;
   background-color: rgba(0, 0, 0, 0.753);
   padding:150px;
   transform: translateX(500px);
