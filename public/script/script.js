@@ -4,7 +4,6 @@ const cross = document.querySelector(".cross");
 const menuIcon = document.querySelector(".menu-icon");
 const menu = document.querySelector(".menu");
 
-
 let menuOpen = false;
 
 trailerLink.addEventListener("click", () => {
@@ -23,14 +22,14 @@ menuIcon.addEventListener("click", async () => {
     for (i = 500; i >= 0; i -= 50) {
       menu.style.transform = `translateX(${i}px)`;
       await sleep(2);
-    //   console.log(i);
+      //   console.log(i);
     }
   } else {
     menuOpen = false;
     for (i = 0; i < 500; i += 50) {
       menu.style.transform = `translateX(${i}px)`;
       await sleep(2);
-    //   console.log(i);
+      //   console.log(i);
     }
   }
 });
