@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url("../assets/jpg/jokerBg.jpg");
+  background-image: url("../style/assets/jpg/jokerBg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -192,7 +192,6 @@ header {
 
 .menu a:hover{
   color: tomato;
-  transform: scale(1.5);
 }
 
 body{
