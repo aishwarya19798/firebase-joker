@@ -15,7 +15,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px 0px;
+  margin: 50px 0;
 }
 
 .logo {
@@ -75,7 +75,15 @@ header {
   align-items: center;
   margin-top: 20px;
   margin-left: 100px;
+  
   /* justify-items: center; */
+}
+
+.hero-container .trailer svg {
+  stroke: whitesmoke;
+  stroke-width: 1px;
+  width: 45px;
+  height: auto;
 }
 
 .hero-container .trailer a svg {
@@ -85,6 +93,12 @@ header {
 .hero-container .trailer a {
   display: flex;
   align-items: center;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: whitesmoke;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  margin-left: 10px;
 }
 
 .hero-container .trailer:hover > a,
@@ -96,8 +110,8 @@ header {
 .hero-container .video {
   position: absolute;
   display: none;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   background: rgba(0, 0, 0, 0.788);
   height: 100vh;
   width: 100vw;
@@ -115,28 +129,13 @@ header {
   color: tomato;
   align-self: flex-end;
   padding: 1em;
+  
   /* margin: 1em; */
-  padding-right: 0px;
-  margin-right: 0px;
+  padding-right: 0;
+  margin-right: 0;
   font-size: 1.5em;
   cursor: pointer;
   font-family: sans-serif;
-}
-
-.hero-container .trailer svg {
-  stroke: whitesmoke;
-  stroke-width: 1px;
-  width: 45px;
-  height: auto;
-}
-
-.hero-container .trailer a {
-  text-decoration: none;
-  font-family: sans-serif;
-  color: whitesmoke;
-  font-weight: normal;
-  letter-spacing: 0.1em;
-  margin-left: 10px;
 }
 
 .social-icons {
