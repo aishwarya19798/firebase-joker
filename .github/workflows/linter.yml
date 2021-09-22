@@ -18,8 +18,12 @@ jobs:
     steps:
       - name: Check out Git repository
         uses: actions/checkout@v2
+      - name: Prettify code
+        uses: creyD/prettier_action@v4.0  
+      - name: Run eslint
+        uses: stefanoeb/eslint-action@1.0.2
       - name: Run linters
         uses: wearerequired/lint-action@v1
         with:
-          eslint: false
+          eslint: true
           prettier: true
